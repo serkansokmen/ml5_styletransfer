@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "style-transfer",
+	"builds": [
+		{ "src": "index.html", "use": "@now/html-minifier" },
+    { "src": "styles.css", "use": "@now/html-minifier" },
+    { "src": "static/**/*", "use": "@now/static" }
+  ]
+}
